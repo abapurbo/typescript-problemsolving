@@ -4,3 +4,4 @@ const addTwoNumbers=(num1:number,num2:number):number=>{
     return num1+num2;
 }
 addTwoNumbers(5,10); // returns 15
+console.log(addTwoNumbers(5,10)); // Output: 15
