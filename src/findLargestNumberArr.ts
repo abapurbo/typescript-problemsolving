@@ -1,5 +1,6 @@
 // Write a function that returns the largest number in an array.
-const findLargestNumberArr = (arr: number[]): number => {
+const findLargestNumberArr = (arr: number[]): number | undefined => {
+    if (arr.length === 0) return undefined
     let largest = arr[0]!;
     for (let i = 1; i < arr.length; i++) {
         if (arr[i]! > largest) {
