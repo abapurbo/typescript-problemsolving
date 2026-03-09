@@ -3,3 +3,4 @@
  * Create a function that checks if a number is even or odd.
  * Write a function that returns the largest number in an array.
  * Write a function that reverses a string.
+ * Create a function that counts vowels in a string.
